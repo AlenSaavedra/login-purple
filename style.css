@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffffd1;
+    letter-spacing: 2;
+    
+    
+}
+
+.enlace{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 8px 45px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.container{
+   background: linear-gradient(90deg, #cccccc83 0%, #cdcdcdad 100%);
+   max-width: 400px;
+   margin: auto;
+   margin-top: 300px;
+   border: 1px solid rgba(0, 0, 0, 0.048);
+   border-radius: 20px;
+   box-shadow: rgba(130, 25, 92, 0.4) -5px 5px, rgba(181, 37, 128, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(194, 37, 136, 0.1) -20px 20px, rgba(172, 35, 122, 0.05) -25px 25px;
+}
+
+.form{
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+label{
+    font-size: 16px;
+    line-height: 2;
+    color: #ffffffd7;
+}
+
+input{
+    font-size: 16px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    width: 100%; 
+    border: none;
+    border-left: 4px solid rgba(128, 0, 128);
+    /* border-bottom: 2px solid rgba(128, 0, 128); */
+    border-radius: 16px;
+    box-shadow: 0px 3px 3px 0px rgba(128, 0, 128, 0.477);
+}
+/* Elimina el focus al seleccionar el input */
+input:focus{
+    outline:none;
+} 
+
+button{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.sign {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+    padding: 0.75rem;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+}
+button:hover{
+    background: linear-gradient(90deg, #f8f6f6eb 10%, #ffffff49 100%);
+    color: purple;
+    transition-duration: 1s;
+}
+
+img{
+    width: 70px;
+}
