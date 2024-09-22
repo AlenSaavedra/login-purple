@@ -100,3 +100,81 @@ button:hover{
 img{
     width: 70px;
 }
+/* Responsive */
+@media (max-width: 780px) {
+    body {
+        margin: 0;
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 30px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+    }
+    
+    .container {
+        margin-top: 100px; /* Reduce el margen superior */
+        max-width: 90%; /* Aumenta el ancho del contenedor */
+    }
+
+    .form {
+        padding: 15px 20px; /* Ajusta el padding */
+    }
+
+    .enlace {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    button {
+        padding: 0.5rem; /* Ajusta el padding del botón */
+    }
+
+    img {
+        width: 50px; /* Reduce el tamaño de la imagen */
+    }
+}
+
+@media (max-width: 360px) {
+    h2 {
+        font-size: 24px; /* Tamaño más pequeño para pantallas muy pequeñas */
+    }
+
+    .container {
+        margin-top: 100px; /* Reduce aún más el margen superior */
+        max-width: 95%; /* Ajusta el ancho */
+    }
+
+    .form {
+        padding: 10px 10px; /* Reduce el padding */
+    }
+
+    input {
+        font-size: 14px; /* Ajusta el tamaño de fuente del input */
+    }
+
+    .sign {
+        padding: 0.5rem; /* Ajusta el padding del botón */
+    }
+}
+
+@media (max-width: 1080px) {
+    /* Estilos específicos para dispositivos como el Infinix Note 12 G96 */
+    body {
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    .form {
+        padding: 15px 10px;
+    }
+
+    button {
+        padding: 0.5rem;
+    }
+}
